@@ -63,7 +63,7 @@ const apiKey = "AIzaSyDNOcMqW6ulbhDX6CH5K6UaFMZ2rARC3tE";
 
 const localFirebaseConfig = {
   apiKey: "AIzaSyAuR4Bx5zvou5WCYSMfxIwAIznG2JzbDCM",
-  authDomain: "realorfake.fun",
+  authDomain: "real-or-fake-etc-e500e.firebaseapp.com",
   projectId: "real-or-fake-etc-e500e",
   storageBucket: "real-or-fake-etc-e500e.firebasestorage.app",
   messagingSenderId: "635450603022",
