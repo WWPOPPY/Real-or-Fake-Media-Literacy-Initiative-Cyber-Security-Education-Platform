@@ -72,3 +72,33 @@ body {
   /* สีเหลือง */
   background-color: #eab308; border-color: #eab308; color: #facc15;
 }
+
+/* --- เพิ่มต่อท้ายในไฟล์ src/index.css --- */
+
+/* 1. เอฟเฟกต์กระจก (Glassmorphism) แบบพรีเมียม */
+.glass-card {
+  background: rgba(15, 23, 42, 0.6); /* สีพื้นหลังโปร่งแสง */
+  backdrop-filter: blur(16px);       /* เบลอฉากหลัง */
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(6, 182, 212, 0.2); /* ขอบสีฟ้าจางๆ */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* เงาฟุ้งๆ */
+}
+
+/* 2. ตัวหนังสือเรืองแสง (Neon Text) */
+.neon-text-glow {
+  text-shadow: 0 0 5px rgba(6, 182, 212, 0.8),
+               0 0 10px rgba(6, 182, 212, 0.5),
+               0 0 20px rgba(37, 99, 235, 0.3);
+}
+
+/* 3. ปุ่มกดแบบ Cyberpunk */
+.cyber-btn {
+  background: linear-gradient(90deg, #0891b2, #2563eb);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.cyber-btn:hover {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.6); /* เรืองแสงเมื่อเอาเมาส์ชี้ */
+  transform: translateY(-2px);
+}
